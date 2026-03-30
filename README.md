@@ -1,13 +1,15 @@
 # Additional Results for HDTE-NN
 
-This repository contains additional visualizations supporting the interpretability analysis of the proposed HDTE-NN estimator.  
+This repository provides additional materials supporting specific reviewer comments.  
 All results are averaged over 100 repeated sample splits.
 
 ---
 
-# Dataset 1: NHANES
+# Reviewer CbGC – Weakness 4
 
-## 1. Overall average treatment-effect curves
+## Dataset 1: NHANES
+
+### 1. Overall average treatment-effect curves
 
 ![Overall curves](plot5_practical_overall_curves.png)
 
@@ -15,7 +17,7 @@ All results are averaged over 100 repeated sample splits.
 
 ---
 
-## 2. Subgroup-average treatment-effect curves
+### 2. Subgroup-average treatment-effect curves
 
 ![Subgroup curves](plot6_practical_subgroup_curves.png)
 
@@ -23,7 +25,7 @@ All results are averaged over 100 repeated sample splits.
 
 ---
 
-## 3. Representative-profile treatment-effect curves
+### 3. Representative-profile treatment-effect curves
 
 ![Representative profiles](plot7_practical_representative_profiles.png)
 
@@ -31,9 +33,9 @@ All results are averaged over 100 repeated sample splits.
 
 ---
 
-# Dataset 2: CPS / NSW
+## Dataset 2: CPS / NSW
 
-## 1. Overall average treatment-effect curves
+### 1. Overall average treatment-effect curves
 
 ![Overall curves](plot5_practical_overall_curves1.png)
 
@@ -41,7 +43,7 @@ All results are averaged over 100 repeated sample splits.
 
 ---
 
-## 2. Subgroup-average treatment-effect curves
+### 2. Subgroup-average treatment-effect curves
 
 ![Subgroup curves](plot6_practical_subgroup_curves1.png)
 
@@ -49,11 +51,37 @@ All results are averaged over 100 repeated sample splits.
 
 ---
 
-## 3. Representative-profile treatment-effect curves
+### 3. Representative-profile treatment-effect curves
 
 ![Representative profiles](plot7_practical_representative_profiles1.png)
 
 *Estimated treatment-effect curves for representative covariate profiles in the CPS-augmented NSW data corresponding to different quantiles of the age distribution, averaged over 100 repeated sample splits.*
+
+---
+
+# Reviewer Chvr – Weakness 2
+
+## NSW experimental dataset (Section 4.2)
+
+![NSW Table](table1_nsw.png)
+
+*Comparison of test score MSE and threshold-level dominance for the NSW experimental dataset.*
+
+---
+
+## NHANES observational dataset (Appendix A.1)
+
+![NHANES Table](table2_nhanes.png)
+
+*Comparison of test score MSE and threshold-level dominance for the NHANES dataset.*
+
+---
+
+## CPS-augmented NSW dataset (Appendix A.2)
+
+![CPS NSW Table](table3_cps_nsw.png)
+
+*Comparison of test score MSE and threshold-level dominance for the CPS-augmented NSW dataset.*
 
 ---
 
