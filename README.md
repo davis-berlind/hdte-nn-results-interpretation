@@ -85,6 +85,17 @@ All results are averaged over 100 repeated sample splits.
 
 ---
 
+
+# Reviewer Chvr – Question 1
+
+## Comparison of closely related methods
+
+![Method comparison](table4_comparison.png)
+
+*Comparison of related methods in terms of target (mean, CDF, or CDTE), structural properties, and theoretical guarantees. See notation within the table for details.*
+
+---
+
 ## Note
 
 This repository is provided for anonymous review purposes only.
